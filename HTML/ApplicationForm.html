@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Job Application Form</title>
+        <link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css">
+    </head>
+    <body>
+        <form action="/Data/FullStackTaining/HTML/SuccessPage.html" method="POST">
+            <h1><center>Job Application Form</center></h1>
+            <br/>
+            <div id="appForm" class="AppForm">
+            <fieldset id="personal">
+                <legend><b>Personal Details</b></legend>
+                First Name <input type="text" id="firstName" name="FirstName" placeholder="First Name" required/> <br/>
+                Last Name <input type="text" id="lastName" name="LastName" placeholder="Last Name"/> <br/>
+                Gender : Male<input type="radio" id="male" name ="gender" value="Male"/>
+                         Female<input type="radio" id="female" name="gender" value="Female"/><br/>
+                DOB <input type="date" id="dob" name="dob"/><br/>
+                Email <input type="email" id="email"/>
+            </fieldset>
+            <br/>
+            <fieldset id="education">
+                <legend><b>Education Details</b></legend>
+                Highest Degree  : Masters <input type="radio" id="masters" name="degree"/>
+                                  Bachelors <input type="radio" id="bachelors" name="degree"/>
+                                  Secondary <input type="radio" id="secondary" name="degree"/>
+                <br/>
+                Year Completed <input type="date" id="completed" name="completed"/>
+                <br/>
+            </fieldset>
+            <br/>
+            <fieldset id="technology">
+                <legend><b>Areas of Interest</b></legend>
+                Technologies : Java <input type="checkbox" id="java" name="Java"/>
+                               .Net <input type="checkbox" id=".net" name=".Net"/>
+                               SAP <input type="checkbox" id="sap" name="Sap"/>
+                               Oracle Apps <input type="checkbox" id="apps" name="Apps"/> 
+                <br/>
+                Others <textarea></textarea>
+            </fieldset>
+            <br/>
+            <fieldset id="resume">
+                <legend><b>Upload Resume</b></legend>
+                Upload CV <input type="file" id="resume" name="resume"/> <br/>
+            </fieldset>
+            <br/>
+            </div>
+            <div id="subForm" class="submitForm">
+                <button type="submit" value="submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>

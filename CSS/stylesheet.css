@@ -1,0 +1,62 @@
+.submitForm{text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+.AppForm{text-align: left;
+    /*background-color:gray;*/
+    width: 500px;
+    /*border: 2px solid;*/
+}
+
+#personal{
+    background-color : lightgray;
+    border-radius: 10%;
+    opacity : 0.5;
+    border : 1px solid;
+}
+
+#education{
+    background-color : lightgrey;
+    border-radius: 10%;
+    opacity : 0.5;
+    border : 1px solid;
+}
+
+#technology{
+    background-color : lightgoldenrodyellow;
+    border-radius: 10%;
+    opacity : 0.5;
+    border : 1px solid;
+}
+
+#resume{
+    background-color : lightcyan;
+    border-radius: 10%;
+    opacity : 0.5;
+    border : 1px solid;
+}
+
+#personal:hover{
+    border : 2px dotted;
+    font-size:17px;
+    opacity: 1;
+}
+
+#education:hover{
+    border : 2px dotted;
+    font-size:17px;
+    opacity: 1;
+}
+
+#technology:hover{
+    border : 2px dotted;
+    font-size:17px;
+    opacity: 1;
+}
+
+#resume:hover{
+    border : 2px dotted;
+    font-size:17px;
+    opacity: 1;
+}
